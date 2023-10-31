@@ -5,10 +5,6 @@ import discord
 from disco.bot import DiscoBot
 
 from disco.cogs.help import HelpMenus
-from disco.cogs.chart import MetricsChart
-from disco.cogs.ecosystem import MetricsEcosystem
-from disco.cogs.gastracker import GasTracker
-from disco.cogs.dexscreener import DexScreener
 
 from disco.listener.wen import WenHandler
 from disco.listener.hello import HelloHandler
@@ -16,7 +12,6 @@ from disco.listener.gm import GmHandler
 from disco.listener.gn import GnHandler
 from disco.listener.thankyou import ThankYouHandler
 from disco.listener.bad import BadHandler
-from disco.listener.tsuki import TsukiHandler
 
 from .cogs.keepers import KeepersStats
 from .cogs.mpx import MetricsMPX
