@@ -30,10 +30,6 @@ class Froggy(DiscoBot):
 
         # disco cogs
         self.add_cog(HelpMenus(help_messages))
-        self.add_cog(MetricsChart())
-        self.add_cog(MetricsEcosystem())
-        self.add_cog(GasTracker())
-        self.add_cog(DexScreener())
 
         # disco listeners
         self.add_listener(WenHandler())
@@ -42,7 +38,6 @@ class Froggy(DiscoBot):
         self.add_listener(GnHandler())
         self.add_listener(ThankYouHandler())
         self.add_listener(BadHandler())
-        self.add_listener(TsukiHandler())
 
         # froggy cogs
         self.add_cog(KeepersStats())
