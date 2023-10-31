@@ -14,7 +14,6 @@ from disco.listener.thankyou import ThankYouHandler
 from disco.listener.bad import BadHandler
 
 from .cogs.keepers import KeepersStats
-from .cogs.mpx import MetricsMPX
 
 from .listener.exchanges import ExchangesHandler
 from .listener.contracts import ContractsHandler
@@ -41,7 +40,6 @@ class Froggy(DiscoBot):
 
         # froggy cogs
         self.add_cog(KeepersStats())
-        self.add_cog(MetricsMPX())
 
         # froggy listeners
         self.add_listener(ExchangesHandler())
